@@ -1,0 +1,138 @@
+h1 {
+    font-family: times new roman;
+    border: outset;
+    text-align: center;
+    padding: 6px;
+    color: #DE6B48;
+    border-color: #F5D491;
+    background-color:white;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.pie > img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.pie > h2 {
+    margin-top: 20%;
+    font-style: oblique;
+    color: #232528;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+h3 {
+    margin-top: 80px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 8px double #232528;
+    border-radius: 8px;
+    color: #232528;
+    background-color: #f4e9d3;
+    justify-content: space-evenly;
+}
+
+.ingredients > h3 {
+    color: #232528;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.ingredients > ul > li {
+    list-style-type: square;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.ingredients > img {
+    border-radius: 20px;
+}
+
+.sfarjal {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: start;
+}
+
+.sfarjal > img {
+    width:100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.preparation > ol > li {
+    list-style-type: square;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.preparation {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 8px double #232528;
+    border-radius: 8px;
+    color: #232528;
+    background-color: #f4e9d3;
+    justify-content: space-evenly;
+
+}
+
+.conclusion > h4 {
+    color: #232528;
+    margin-top: 100px;
+    font-size: x-large;
+    border: 2px dashed #232528;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.conclusion > h2 {
+
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: xx-large;
+    color: #232528;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+.conclusion > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.conclusion > h3 {
+    font-family: cursive;
+    letter-spacing: 3px;
+    color: #232528;
+}
