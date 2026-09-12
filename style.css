@@ -1,0 +1,82 @@
+.background > img {
+    box-shadow: 0px 7px 20px black;
+    width: 400px;
+    position: absolute;
+    top: 45px;
+    border-radius: 8px;
+
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.pfp > img{
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 565px;
+    
+
+}
+
+.info > h5 {
+    position: absolute;
+    top: 240px;
+    left: 510px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color: rgb(82, 82, 82);
+    font-weight: bolder;
+}
+
+.info > h6 {
+    position: absolute;
+    top: 290px;
+    left: 552px;
+    font-size: 0.90rem;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: rgb(152, 152, 152);
+
+}
+
+.locale > h6 {
+    position: absolute;
+    top: 320px;
+    left: 541px;
+    font-size: 0.90rem;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: rgb(152, 152, 152);
+
+}
+
+.button > button {
+    position: absolute;
+    top: 399px;
+    left: 568px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 8px;
+    border-radius: 13px;
+    background-color: white;
+    color: rgb(248, 179, 95);
+    cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
+    
+}
+
+.button > button:hover {
+    background-color: rgb(248, 179, 95);
+    color: white;
+}
+
+.button > button:active {
+    opacity: 0.5;
+}
