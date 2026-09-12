@@ -1,7 +1,7 @@
 .background > img {
     box-shadow: 0px 7px 20px black;
     width: 400px;
-    position: absolute;
+    position: relative;
     top: 45px;
     border-radius: 8px;
 
